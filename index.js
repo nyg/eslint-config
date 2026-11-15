@@ -25,6 +25,10 @@ export const base = [
       rules: {
          '@stylistic/brace-style': ['error', '1tbs'],
          '@stylistic/indent': ['error', 3, { SwitchCase: 1 }],
+         '@stylistic/member-delimiter-style': ['error', {
+            multiline: { delimiter: 'none' },
+            singleline: { delimiter: 'comma' },
+         }],
          '@stylistic/no-trailing-spaces': 'error',
          '@stylistic/quotes': ['error', 'single'],
          '@stylistic/semi': ['error', 'never'],

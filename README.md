@@ -14,7 +14,7 @@ The plugins come with the package: a project needs only `eslint` and this packag
 
 | Preset | From | Content |
 |---|---|---|
-| `base` | `@nyg/eslint-config` | `@eslint/js` recommended, formatting through `@stylistic` (3 spaces, no semicolons, single quotes, `1tbs` braces, no trailing spaces), sorted imports and exports, `curly`, `eqeqeq`, `no-var`, `prefer-const` |
+| `base` | `@nyg/eslint-config` | `@eslint/js` recommended, formatting through `@stylistic` (3 spaces, no semicolons, single quotes, `1tbs` braces, no trailing spaces, no delimiter after interface members), sorted imports and exports, `curly`, `eqeqeq`, `no-var`, `prefer-const` |
 | `typescript` | `@nyg/eslint-config` | `typescript-eslint` recommended, `consistent-type-imports` |
 | `react` | `@nyg/eslint-config` | `eslint-plugin-react-hooks` recommended, `react-refresh/only-export-components` |
 | `next` | `@nyg/eslint-config/next` | `eslint-config-next/core-web-vitals` |
