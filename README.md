@@ -5,7 +5,7 @@ My ESLint presets.
 ## Install
 
 ```sh
-pnpm add -D eslint github:nyg/eslint-config#v1.0.0
+pnpm add -D eslint github:nyg/eslint-config#v1.0.1
 ```
 
 The plugins come with the package: a project needs only `eslint` and this package. Next.js projects also keep `eslint-config-next`.

@@ -14,6 +14,7 @@ export const base = [
    { name: 'nyg/javascript', ...js.configs.recommended },
    {
       name: 'nyg/base',
+      files: ['**/*.{js,mjs,cjs,jsx,ts,mts,cts,tsx}'],
       languageOptions: {
          globals: { ...globals.browser, ...globals.node },
          parserOptions: { ecmaFeatures: { jsx: true } },
